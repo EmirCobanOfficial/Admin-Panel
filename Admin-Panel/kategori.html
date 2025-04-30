@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kategori</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar bg-dark border-bottom border-body navbar-expand-lg"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Admin</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="kategori.html" class="nav-link active">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a href="urun.html" class="nav-link">Ürün</a>
+              </li>
+              <li class="nav-item">
+                <a href="slider.html" class="nav-link">Slider</a>
+              </li>
+              <li class="nav-item">
+                <a href="role.html" class="nav-link">Role</a>
+              </li>
+              <li class="nav-item">
+                <a href="kullanici.html" class="nav-link">Kullanıcı</a>
+              </li>
+              <li class="nav-item">
+                <a href="siparis.html" class="nav-link">Sipariş</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Emir Çoban</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="hesabim.html" class="dropdown-item">Hesabım</a></li>
+                  <li><a href="#" class="dropdown-item">Çıkış</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Giriş</a>
+              </li>
+              <li class="nav-item">
+                <a href="register.html" class="nav-link">Hesap Oluştur</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-3">
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div
+              class="card-header py-1 d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title">Kategoriler</h5>
+              <a href="kategori-ekle.html" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered table-striped mb-0">
+                  <thead class="table-secondary">
+                    <tr>
+                      <th>Id</th>
+                      <th>Kategori Adı</th>
+                      <th>Url</th>
+                      <th>Ürün Sayısı</th>
+                      <th style="width: 90px"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Crea Plus</td>
+                      <td>1333A</td>
+                      <td>14</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Crea Premium</td>
+                      <td>1350A</td>
+                      <td>5</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Crea</td>
+                      <td>Maya - 1360</td>
+                      <td>14</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Crea Deluxe</td>
+                      <td>Deluxe - 6780</td>
+                      <td>32</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Büyük Ebatlar</td>
+                      <td>Ebatlar</td>
+                      <td>2</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Test</td>
+                      <td>test ürün</td>
+                      <td>60</td>
+                      <td>
+                        <span class="badge bg-primary">Onay bekleniyor</span>
+                      </td>
+                      <td>
+                        <a
+                          href="kategori-ekle.html"
+                          class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-pen-to-square"></i
+                        ></a>
+                        <a href="urun.html" class="btn btn-primary btn-sm"
+                          ><i class="fa-solid fa-right-long"></i
+                        ></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
